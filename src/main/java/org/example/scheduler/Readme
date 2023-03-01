@@ -1,0 +1,33 @@
+ * SDA Scheduler application requirements
+ * <p>
+ * Create a class hierarchy
+ * <p>
+ * Person.java - firstname
+ * - lastname
+ * - dateOfBirth
+ * Trainer.java (extends Person) - isAuthorized (boolean)
+ * Student.java (extends Person) - hasPreviousJavaKnowledge (boolean)
+ * <p>
+ * Create a Group class which has
+ * <p>
+ * name (Java2Gdansk, Tester3Bucharest, etc)
+ * one trainer
+ * a list of students
+ * <p>
+ * * Manually initialize 15 students; 4 groups and 3 trainers;
+ * * Store all students in a list; all groups in a list; all trainers in a list;
+ * * Asign a trainer to each group
+ * * Asign 3-4 students to each group
+ * * Ensure the fact that a group will only have distinct students (How would you do that?)
+ * * Ensure the fact that a group will only have a maximum of 5 students;
+ * When you try to add a 6th one throw an MaximumNumberOfStudentsReached exception
+ * * 1. Display all students sorted alphabetically by lastName
+ * * 2. Display the group with the maximum number of students
+ * * 3. Display all students grouped by trainer that teaches to them
+ * (eg. Trainer1 - stud1, stud3, stud4; Trainer2 - stud2, stud 10) - regardless of the group they're part of
+ * (If you were to store this information in a data structure what would you use?)
+ * * 4. Display all students with previous java knowledge
+ * * Homework:
+ * * 5. Display the group with the highest number of students with no previous java knowledge
+ * * 6. Display all students younger than 25, from all groups; Period - for finding the age of the students  (ex. Period.between(student.getDateOfBirth(), LocalDate.now()).getYears(); )
+ * * 7. Remove all the students younger than 20 from all groups; Hint: add a new method in Group class that do the delete of the student; removeIf(condition)
