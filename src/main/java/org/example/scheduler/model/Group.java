@@ -1,4 +1,6 @@
-package org.example.scheduler;
+package org.example.scheduler.model;
+
+import org.example.scheduler.exception.MaximumNumberOfStudentsReached;
 
 import java.util.Collections;
 import java.util.HashSet;
@@ -32,10 +34,6 @@ public class Group {
         Set<Student> studentsCopy = new HashSet<>();
         studentsCopy.addAll(this.students);
         return studentsCopy;
-    }
-
-    public Set<Student> getStudentsV2() {
-        return Collections.unmodifiableSet(this.students);
     }
 
     public void setStudents(Set<Student> students) {

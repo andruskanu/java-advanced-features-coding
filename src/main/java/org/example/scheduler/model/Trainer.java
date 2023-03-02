@@ -1,4 +1,4 @@
-package org.example.scheduler;
+package org.example.scheduler.model;
 
 import java.time.LocalDate;
 

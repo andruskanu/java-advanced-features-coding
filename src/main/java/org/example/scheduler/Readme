@@ -1,19 +1,18 @@
  * SDA Scheduler application requirements
- * <p>
+
  * Create a class hierarchy
- * <p>
+
  * Person.java - firstname
  * - lastname
  * - dateOfBirth
  * Trainer.java (extends Person) - isAuthorized (boolean)
  * Student.java (extends Person) - hasPreviousJavaKnowledge (boolean)
- * <p>
+
  * Create a Group class which has
- * <p>
  * name (Java2Gdansk, Tester3Bucharest, etc)
  * one trainer
  * a list of students
- * <p>
+
  * * Manually initialize 15 students; 4 groups and 3 trainers;
  * * Store all students in a list; all groups in a list; all trainers in a list;
  * * Asign a trainer to each group

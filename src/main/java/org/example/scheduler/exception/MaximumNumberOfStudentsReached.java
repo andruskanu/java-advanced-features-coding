@@ -1,4 +1,4 @@
-package org.example.scheduler;
+package org.example.scheduler.exception;
 
 public class MaximumNumberOfStudentsReached extends RuntimeException {
 
