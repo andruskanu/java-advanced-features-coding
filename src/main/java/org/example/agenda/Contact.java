@@ -15,6 +15,7 @@ public class Contact {
     public String getName() {
         return name;
     }
+
     public String getPhoneNumber() {
         return phoneNumber;
     }

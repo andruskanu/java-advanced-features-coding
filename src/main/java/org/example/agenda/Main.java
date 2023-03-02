@@ -11,10 +11,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Contact c1 = new Contact("Andrei","0733742000");
-        Contact c2 = new Contact("Matei","0722584545");
-        Contact c3 = new Contact("Cosmin","0755432423");
-        Contact c4 = new Contact("Cosmin","0755432423");
+        Contact c1 = new Contact("Andrei", "0733742000");
+        Contact c2 = new Contact("Matei", "0722584545");
+        Contact c3 = new Contact("Cosmin", "0755432423");
+        Contact c4 = new Contact("Cosmin", "0755432423");
 
         Agenda agenda = new Agenda();
 

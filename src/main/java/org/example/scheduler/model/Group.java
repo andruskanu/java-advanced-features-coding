@@ -2,6 +2,8 @@ package org.example.scheduler.model;
 
 import org.example.scheduler.exception.MaximumNumberOfStudentsReached;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;

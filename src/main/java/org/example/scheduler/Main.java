@@ -7,6 +7,7 @@ import org.example.scheduler.model.Student;
 import org.example.scheduler.model.Trainer;
 
 import java.time.LocalDate;
+import java.time.Period;
 import java.util.*;
 
 import static org.example.scheduler.repository.Storage.*;
@@ -128,6 +129,8 @@ public class Main {
     // 6. All students younger than 25, from all groups
     public static void getStudentsYoungerThan25() {
         System.out.println("6. All students younger than 25, from all groups");
+
+
         getStudents().stream().filter(student -> student.getDateOfBirth()
                         .isAfter(LocalDate.ofYearDay(1998, 1)))
                 .forEach(System.out::println);

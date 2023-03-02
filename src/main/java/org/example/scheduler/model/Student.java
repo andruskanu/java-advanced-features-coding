@@ -1,6 +1,7 @@
 package org.example.scheduler.model;
 
 import java.time.LocalDate;
+import java.time.Period;
 import java.util.Objects;
 
 public class Student extends Person {
@@ -28,7 +29,7 @@ public class Student extends Person {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Student student = (Student) o;
-        return  Objects.equals(super.getFirstName(), student.getFirstName()) &&
+        return Objects.equals(super.getFirstName(), student.getFirstName()) &&
                 Objects.equals(super.getLastName(), student.getLastName()) &&
                 Objects.equals(super.getDateOfBirth(), student.getDateOfBirth());
     }
